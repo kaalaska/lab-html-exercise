@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+header > div {
+    padding: 0px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+nav {
+  width: 600px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+.blackHeart {
+  width:20px;
+  margin-right: 1rem
+}
+
+.npm-logo {
+  width: 70px; 
+  padding: 15px 0px;    
+}
+.loupe{
+  width: 20px;
+  height: 20px;  
+}
+header form {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+}
+header form label {
+  background-color: rgba(0,0,0,.05);
+  padding: 10px 10px;    
+}
+header form input {
+  background-color: rgba(0,0,0,.05); 
+  width: 600px;
+  border: none;
+  font-family: 'Poppins';
+}
+header form button {
+  background-color: #fb3e44;
+  color: white;
+  font-family: 'Poppins';
+  padding: 10px 20px;
+  border: none;  
+}
+.account {
+  width:180px;
+}
+.account ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.account a {
+  text-decoration: none;
+  color: black;
+}
+.join {
+  border: 1px solid lightgray;
+  padding: 5px 20px;  
+}
+
+#overview {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 600px;
+  background-color: rgba(232,217,217,.3);  
+}
+heading h1 {
+  font-size: 4em;
+  margin: 0px;  
+}
+#overview article {
+  text-align: center;
+  width:440px;
+  margin: 0px;
+  padding: 20px 0px;    
+}
+.further-info {
+  width:440px;
+  margin: 0px;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+}
+#overview a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bolder;
+  font-family: 'Poppins';
+}
+#overview button {
+  padding: 10px 50px;
+}
+.plan{
+  background-color: #FB3B49;
+  box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+  border: none;    
+}
+.plan a {
+  color: white;   
+}
+.join-free {
+  background-color: white;
+  border: none;
+}
+.join-free a {
+  color: black;  
+}
+#companyInvitation {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  background-color: white;
+  margin-top: 50px; 
+}
+.triangle {
+  width: 200px;  
+}
+heading h3 {
+  font-size: 2.5em;
+  margin-top: 60px;  
+  background-color: rgba(255,204,53,.4);
+  transform: skew(9deg,0deg);
+  font-style: italic;
+}
+#companyInvitation article {
+  text-align: center;
+  width:800px;
+  margin-top: 0px;  
+}
+.orga{
+  height: 400px;
+  background-color: white;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+#features {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 250px;    
+}
+#features div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+    
+}
+#features div img {
+  width: 40px;
+}
+.space{
+  padding-right: 80px
+}
+.orga heading {
+  color: #ED1C24;
+}
+.orga button {
+  background-color: black;
+  box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+  border: none;
+  margin: 80px 0px 50px;
+  padding: 10px 150px;
+}
+.orga button a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: bolder;
+}
